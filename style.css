@@ -115,18 +115,18 @@ body{
   z-index: 9999;
 }
 .share-btn{
-  display: inline-block;
-  width: 32px;
-  height: 32px;
+  display: block;
+  width: 40px;
+  height: 40px;
   margin-bottom: 4px;
   border-radius: 2px;
   background-position: 50%;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.45);
   background-repeat: no-repeat;
   cursor: pointer;
 }
 .share-btn:hover{
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .vk-share{
   background-image: url("/vk.svg");
