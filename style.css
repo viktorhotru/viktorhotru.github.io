@@ -124,12 +124,19 @@ body{
   background-size: 24px;
   background-color: rgba(0, 0, 0, 0.15);
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .share-btn:hover{
   background-color: rgba(0, 0, 0, 0.45);
 }
 .vk-share{
   background-image: url("/vk.svg");
+}
+.ok-share{
+  background-image: url("/ok.svg");
+}
+.fb-share{
+  background-image: url("/fb.svg");
 }
 
 
