@@ -1,3 +1,5 @@
+/*Общие стили*/
+
 body{
   background-color: #f7f7f7;
   margin: none;
@@ -8,6 +10,9 @@ body{
   margin: 0 auto;
   padding: 0 16px 0 16px;
   background-color: #fff;
+}
+.container-mob{
+  width: 360px;
 }
 .block{
   margin-bottom: 20px;
@@ -25,7 +30,9 @@ body{
   position: relative;
 }
 
+
 /*Прогрессбар*/
+
 .progress-bar-block{
   position: absolute;
   width: 100%;
@@ -39,7 +46,9 @@ body{
   background-color: #3DD9AA;
 }
 
+
 /*Размеры плеера*/
+
 .pl-standart{
   width: 640px;
   height: 360px;
@@ -49,6 +58,7 @@ body{
   height: 360px;
 }
 .pl-small{
+  width: 444px;
   height: 250px;
 }
 .pl-big{
@@ -56,7 +66,9 @@ body{
   height: 720px;
 }
 
+
 /*Общие стили кнопок*/
+
 .button{
   padding: 8px 10px 8px 10px;
   background-color: rgba(0,0,0,0.45);
@@ -96,7 +108,9 @@ body{
   z-index: 9999;
 }
 
+
 /*Стили боковых кнопок*/
+
 .left-button{
   position: absolute;
   transform: translateY(-50%);
@@ -114,18 +128,25 @@ body{
   border-top-right-radius: 0;  
 }
 
+
 /*Стиль кнопки пропустить*/
+
 .skip-button{
   position: absolute;
   transform: translateY(-50%);
   top: 80%;
   right: 2%;
-  border: rgba(256, 256, 256, 0.5) solid 1px;
+  border: rgba(256, 256, 256, 0.5) solid 2px;
   font-size: 13px;
   opacity: 0.8;
 }
+.skip-button-active{
+  border: rgba(256, 256, 256, 2) solid 2px;
+  opacity: 1;
+}
 
 /*Стили кнопок шеринга*/
+
 .share-btn{
   display: block;
   margin-bottom: 10%;
@@ -158,10 +179,15 @@ body{
 
 
 /*Стили для аутстрима*/
+
 .timer{
   height: 24px;
   min-width: 24px;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 4px 8px 2px 8px;
 }
 .center-button{
   position: absolute;
