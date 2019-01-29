@@ -109,10 +109,10 @@ body{
 .social-buttons{
   position: absolute;
   width: 32px;
+  min-height: 32px;
   right: 10px;
   top: 8px;
   z-index: 9999;
-  
 }
 .share-btn{
   opacity: 0.9;
@@ -123,6 +123,7 @@ body{
   background-size: 24px;
   background-color: rgba(0, 0, 0, 0.15);
   background-repeat: no-repeat;
+  margin-bottom: 4px;
 }
 .share-btn:hover{
   opacity: 1;
