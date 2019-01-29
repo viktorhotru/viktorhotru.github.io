@@ -1,6 +1,10 @@
 body{
   
 }
+.container{
+  width: 1302px;
+}
+
 .player{
   background: #121212;
   position: relative;
