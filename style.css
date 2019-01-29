@@ -1,5 +1,6 @@
 body{
   background-color: #f7f7f7;
+  margin: none;
 }
 .container{
   width: 1302px;
@@ -106,8 +107,11 @@ body{
 }
 
 /*Стили кнопок шеринга*/
-.button-vk{
-  
+.vk-share{
+  background-image: url("/vk.svg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 16px;
 }
 .social-rolled{
   
