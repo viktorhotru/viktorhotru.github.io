@@ -12,7 +12,6 @@ body{
   margin-bottom: 20px;
 }
 
-
 .player{
   background: #121212;
   position: relative;
@@ -107,15 +106,21 @@ body{
 }
 
 /*Стили кнопок шеринга*/
+.social-buttons{
+  position: absolute;
+  width: 32px;
+  right: 16px;
+  top: 10px;
+}
 .vk-share{
   background-image: url("/vk.svg");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 16px;
+  width: 24px;
+  height: 24px;
 }
-.social-rolled{
-  
-}
+
 
 /*Стили перехода в аутстриме*/
 .center-button{
