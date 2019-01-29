@@ -112,13 +112,16 @@ body{
   right: 16px;
   top: 10px;
 }
-.vk-share{
-  background-image: url("/vk.svg");
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: 16px;
+.share-btn{
   width: 24px;
   height: 24px;
+  border-radius: 4px;
+  background-position: 50%;
+  background-size: 16px;
+  background-repeat: no-repeat;
+}
+.vk-share{
+  background-image: url("/vk.svg");
 }
 
 
