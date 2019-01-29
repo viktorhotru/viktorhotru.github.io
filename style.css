@@ -28,19 +28,19 @@ body{
 }
 
 /*Размеры плеера*/
-.standart{
+.pl-standart{
   width: 640px;
   height: 360px;
 }
-.flyroll{
+.pl-flyroll{
   width: 360px;
   height: 360px;
 }
-.small{
+.pl-small{
   width: 427px;
   height: 240px;
 }
-.big{
+.pl-big{
   width: 1280px;
   height: 720px;
 }
