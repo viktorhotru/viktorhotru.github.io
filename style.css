@@ -112,6 +112,7 @@ body{
   right: 10px;
   top: 8px;
   z-index: 9999;
+  
 }
 .share-btn{
   position: absolute;
@@ -121,6 +122,7 @@ body{
   border-radius: 2px;
   background-position: 50%;
   background-size: 24px;
+  background-color: #3dd9aa;
   background-repeat: no-repeat;
 }
 .share-btn:hover{
