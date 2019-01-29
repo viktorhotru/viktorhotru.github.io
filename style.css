@@ -111,15 +111,19 @@ body{
   width: 32px;
   right: 10px;
   top: 8px;
+  z-index: 9999;
 }
 .share-btn{
-  width: 24px;
-  height: 24px;
-  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
   background-position: 50%;
-  background-size: 16px;
+  background-size: 24px;
   background-repeat: no-repeat;
   opacity: 0.9;
+}
+.share-btn:hover{
+  opacity: 1;
 }
 .vk-share{
   background-image: url("/vk.svg");
