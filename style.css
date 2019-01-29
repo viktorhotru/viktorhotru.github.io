@@ -105,6 +105,16 @@ body{
   border-top-right-radius: 0;  
 }
 
+/*Стиль кнопки пропустить*/
+.skip-button{
+  position: absolute;
+  transform: translateY(-50%);
+  top: 80%;
+  right: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;  
+}
+
 /*Стили кнопок шеринга*/
 .social-buttons{
   position: absolute;
