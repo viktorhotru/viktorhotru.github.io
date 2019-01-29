@@ -112,18 +112,25 @@ body{
   min-height: 40px;
   right: 10px;
   top: 16px;
+  float: right;
   z-index: 9999;
 }
 .share-btn{
   display: block;
-  width: 40px;
-  height: 40px;
-  margin-bottom: 4px;
+  margin-bottom: 1%;
   border-radius: 2px;
   background-position: 50%;
   background-color: rgba(0, 0, 0, 0.45);
   background-repeat: no-repeat;
   cursor: pointer;
+}
+.wh-40{
+  width: 40px;
+  height: 40px;
+}
+.wh-32{
+  width: 32px;
+  height: 32px;
 }
 .share-btn:hover{
   background-color: rgba(0, 0, 0, 0.6);
