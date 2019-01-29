@@ -114,13 +114,14 @@ body{
   z-index: 9999;
 }
 .share-btn{
+  position: absolute;
+  opacity: 0.9;
   width: 32px;
   height: 32px;
   border-radius: 2px;
   background-position: 50%;
   background-size: 24px;
   background-repeat: no-repeat;
-  opacity: 0.9;
 }
 .share-btn:hover{
   opacity: 1;
