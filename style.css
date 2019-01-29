@@ -110,8 +110,8 @@ body{
   position: absolute;
   width: 40px;
   min-height: 40px;
-  right: 10%;
-  top: 16%;
+  right: 2%;
+  top: 4%;
   float: right;
   z-index: 9999;
 }
