@@ -1,9 +1,11 @@
 body{
-  
+  background-color: #f7f7f7;
 }
 .container{
   width: 1302px;
   margin: 0 auto;
+  padding: 0 16px 0 16px;
+  background-color: #fff;
 }
 
 .player{
