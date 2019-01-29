@@ -115,14 +115,13 @@ body{
   
 }
 .share-btn{
-  position: absolute;
   opacity: 0.9;
   width: 32px;
   height: 32px;
   border-radius: 2px;
   background-position: 50%;
   background-size: 24px;
-  background-color: #3dd9aa;
+  background-color: rgba(0, 0, 0, 0.15);
   background-repeat: no-repeat;
 }
 .share-btn:hover{
