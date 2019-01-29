@@ -1,6 +1,7 @@
 body{
   background-color: #f7f7f7;
   margin: none;
+  font-family: Roboto, Arial, sans-serif;
 }
 .container{
   width: 1302px;
@@ -57,14 +58,13 @@ body{
 
 /*Общие стили кнопок*/
 .button{
-  padding: 8px 16px 9px 16px;
-  background-color: rgba(0,0,0,0.15);
-  border-radius: 4px;
+  padding: 8px 10px 8px 10px;
+  background-color: rgba(0,0,0,0.45);
+  border-radius: 2px;
   border: none;
   box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.15);
   color: #fff;
-  font-size: 18px;
-  font: 18px Arial;
+  font-size: 16px;
   min-width: 130px;
   max-width: 180px;
   cursor: pointer;
@@ -109,8 +109,8 @@ body{
 .social-buttons{
   position: absolute;
   width: 32px;
-  right: 16px;
-  top: 10px;
+  right: 10px;
+  top: 8px;
 }
 .share-btn{
   width: 24px;
@@ -119,6 +119,7 @@ body{
   background-position: 50%;
   background-size: 16px;
   background-repeat: no-repeat;
+  opacity: 0.9;
 }
 .vk-share{
   background-image: url("/vk.svg");
