@@ -109,6 +109,15 @@ body{
   float: right;
   z-index: 9999;
 }
+.top-left-block{
+  position: absolute;
+  min-width: 24px;
+  min-height: 40px;
+  left: 2%;
+  top: 4%;
+  float: left;
+  z-index: 9999;
+}
 
 
 /*Стили боковых кнопок*/
