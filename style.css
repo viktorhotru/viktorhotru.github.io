@@ -152,7 +152,7 @@ body{
   opacity: 0.8;
   cursor: default;
 }
-.skip-button{
+.skip-button:hover{
   opacity: 0.8;
   background-color: rgba(0,0,0,0.45);
 }
