@@ -200,12 +200,13 @@ body{
   min-height: 40px;
   bottom: 0;
   background-color: #333;
-  padding: 8px;
+}
+.bottom-content{
+  margin: 8px;
 }
 .bottom-text{
   color: #fff;
   font-size: 13px;
-
 }
 
 /*Стили для аутстрима*/
