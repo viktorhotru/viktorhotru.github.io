@@ -122,7 +122,7 @@ body{
 }
 .top-out-frame{
   position: absolute;
-  top: -10%;
+  top: -5%;
   right: 2%;
   float: right;
   z-index: 9999;
@@ -252,6 +252,12 @@ body{
 }
 .cross-btn{
   background-image: url("/cross.svg");
+}
+.mute-btn{
+  background-image: url("/mute.svg");
+}
+.volume-btn{
+  background-image: url("/volume.svg");
 }
 
 /*Стили для аутстрима*/
