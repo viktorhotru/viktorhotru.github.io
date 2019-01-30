@@ -23,27 +23,51 @@
       
       <a href="widgets.html"><--Назад</a>
         
-        <div class="block">
-          <p>Текущий вид:</p>
-          <div class="player">
-            <div class="player-content">
-              <div class="boostervideo-slot" data-booster_hash="MzI3b1RNQ2F2dlVVT3RweFZydHZsYjFxMFBzM0R0QjJYMDFDYWZCWEg4YXlPdUtrazZkblpoMld4NzVKaFJER3BXUm9VOWdENzdhNll3NG1KZzhzNUE9PQ==" style="width:100%; height:100%"></div>
-              <script async="" src="https://boostervideo.ru/client/boostervideo.js"></script>
-            </div>
-          </div>
-        </div>
-
-        
-        <div class="block">
+      <div class="block">
           <p>Flyroll (360*360):</p>
           <div class="player pl-fly">
             <div class="player-content">
             </div>
+            <div class="top-right-block">
+              <div class="timer">24</div>
+            </div>
+            <div class="top-left-block">
+                <span class="mute-btn round-btn"></span>
+              </div>
             <div class="progress-bar-block">
-                <div class="progress-bar"></div>
+              <div class="progress-bar"></div>
+            </div>
+            <div class="top-out-frame">
+              <span class="cross-btn round-btn"></span>
             </div>
           </div>
         </div>
+
+        <div class="block">
+            <p>Текущий вид:</p>
+            <div class="player pl-standart">
+              <div class="player-content">
+                <div class="boostervideo-slot" data-booster_hash="MzI3b1RNQ2F2dlVVT3RweFZydHZsYjFxMFBzM0R0QjJYMDFDYWZCWEg4YXlPdUtrazZkblpoMld4NzVKaFJER3BXUm9VOWdENzdhNll3NG1KZzhzNUE9PQ=="></div>
+                <script>
+                var boostervideo = boostervideo || {};
+                boostervideo.domain = "boostervideo.ru";
+                (function () {
+                    var url = "https://boostervideo.ru/getcode/sites_net.js?hash=MzI3b1RNQ2F2dlVVT3RweFZydHZsYjFxMFBzM0R0QjJYMDFDYWZCWEg4YXlPdUtrazZkblpoMld4NzVKaFJER3BXUm9VOWdENzdhNll3NG1KZzhzNUE9PQ%3D%3D";
+                    if (!document.querySelector || !document.querySelector("script[src='" + url + "']")) {
+                      var script = document.createElement('script');
+                      script.async = 1;
+                      script.src = url;
+                      var parent = document.querySelector('script');
+                      parent.parentNode.insertBefore(script, parent);
+                    }
+                })();
+                </script>
+              </div>
+            </div>
+          </div>
+
+        
+        
 
     </div>
 
