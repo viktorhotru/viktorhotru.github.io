@@ -13,6 +13,9 @@ body{
 }
 .container-mob{
   width: 360px;
+  margin: 0 auto;
+  padding: 0 16px 0 16px;
+  background: #fff;
 }
 .block{
   margin-bottom: 20px;
