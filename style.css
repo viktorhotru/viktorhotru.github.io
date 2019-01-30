@@ -120,6 +120,13 @@ body{
   float: left;
   z-index: 9999;
 }
+.top-out-frame{
+  position: absolute;
+  top: -10%;
+  right: 2%;
+  float: right;
+  z-index: 9999;
+}
 
 
 /*Стили боковых кнопок*/
