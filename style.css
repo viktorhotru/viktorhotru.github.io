@@ -141,22 +141,23 @@ body{
   border: #f3f3f3 solid 2px;
   font-size: 13px;
   opacity: 0.8;
+  cursor: none;
 }
 .skip-button-active{
   position: absolute;
   transform: translateY(-50%);
   top: 80%;
   right: 2%;
-  background-color: #f9f9f9;
+  background-color: #eee;
   color: #222;
-  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
   font-size: 13px;
   opacity: 1;
 }
 .skip-button-active:hover{
-  background-color: #eee;
+  background-color: #f9f9f9;
   color: #000;
-  box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 /*Стили кнопок шеринга*/
