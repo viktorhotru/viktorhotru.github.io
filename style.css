@@ -141,7 +141,7 @@ body{
   border: #f3f3f3 solid 2px;
   font-size: 13px;
   opacity: 0.8;
-  cursor: none;
+  cursor: default;
 }
 .skip-button-active{
   position: absolute;
@@ -221,7 +221,8 @@ body{
   margin: 0 auto;
 }
 .hide-block:hover{
-  box-shadow: inset 0 -30px 40px rgba(32, 32, 32, 0.65);
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 35%, rgb(0, 0, 0, 0.45) 100%);
   transition: 0.15s;
 }
 .hide-block:hover .hidden-button{
