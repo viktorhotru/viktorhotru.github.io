@@ -122,7 +122,7 @@ body{
 }
 .top-out-frame{
   position: absolute;
-  top: -5%;
+  top: -8%;
   right: 2%;
   float: right;
   z-index: 9999;
@@ -239,9 +239,9 @@ body{
 
 .round-btn{
   display: block;
-  border-radius: 24px;
-  width: 24px;
-  height: 24px;
+  border-radius: 28px;
+  width: 28px;
+  height: 28px;
   background-position: 50%;
   background-color: rgba(0, 0, 0, 0.45);
   background-repeat: no-repeat;
