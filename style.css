@@ -103,7 +103,7 @@ body{
 }
 .top-right-block{
   position: absolute;
-  width: 40px;
+  min-width: 24px;
   min-height: 40px;
   right: 2%;
   top: 4%;
@@ -191,13 +191,12 @@ body{
 /*Стили для аутстрима*/
 
 .timer{
-  height: 24px;
-  min-width: 24px;
-  background-color: rgba(0, 0, 0, 0.45);
-  color: #fff;
   font-size: 14px;
   text-align: center;
-  padding: 4px 8px 2px 8px;
+  padding: 4px 6px 2px 6px;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  border-radius: 2px;
 }
 .center-button{
   position: absolute;
