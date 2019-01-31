@@ -20,13 +20,11 @@
   <body>
     <div class="container">
       <h1>Виджеты</h1>
-      
-        <div class="boostervideo-slot" data-booster_hash="MzI3b1RNQ2F2dlVVT3RweFZydHZsWGhoaXRtQ1JFR0puUmxhbTZxaVUvYzZSc1AxZUx3dmRrbVFycGJLWVJQTzU2TTQ1MlpqQWpmbU5DMkVzd0ZsWGc9PQ=="></div>
+      <div class="boostervideo-slot" data-booster_hash="MzI3b1RNQ2F2dlVVT3RweFZydHZsWGhoaXRtQ1JFR0puUmxhbTZxaVUvYzZSc1AxZUx3dmRrbVFycGJLWVJQTzU2TTQ1MlpqQWpmbU5DMkVzd0ZsWGc9PQ=="></div>
         <script>
-        var boostervideo = boostervideo || {};
-        boostervideo.domain = "boostervideo.ru";
+        top.boostervideo = top.boostervideo || [];
         (function () {
-        var url = "https://boostervideo.ru/getcode/sites_net.js?hash=MzI3b1RNQ2F2dlVVT3RweFZydHZsWGhoaXRtQ1JFR0puUmxhbTZxaVUvYzZSc1AxZUx3dmRrbVFycGJLWVJQTzU2TTQ1MlpqQWpmbU5DMkVzd0ZsWGc9PQ%3D%3D";
+        var url = "https://boostervideo.ru/client/boostervideo.js";
         if (!document.querySelector || !document.querySelector("script[src='" + url + "']")) {
             var script = document.createElement('script');
             script.async = 1;
@@ -34,7 +32,13 @@
             var parent = document.querySelector('script');
             parent.parentNode.insertBefore(script, parent);
         }
+        top.boostervideo.push(function () {
+            top.boostervideo.domain("boostervideo.ru");
+        });
         })();
+        top.boostervideo.push(function () {
+        top.boostervideo.get();
+        });
         </script>
     </div>
   </body>
