@@ -127,7 +127,18 @@ body{
   float: right;
   z-index: 9999;
 }
-
+.wh-40{
+  width: 40px;
+  height: 40px;
+}
+.wh-32{
+  width: 32px;
+  height: 32px;
+}
+.wh-36{
+  width: 36px;
+  height: 36px;
+}
 
 /*Стили боковых кнопок*/
 
@@ -197,14 +208,7 @@ body{
 .share-btn:hover{
   background-color: rgba(0, 0, 0, 0.6);
 }
-.wh-40{
-  width: 40px;
-  height: 40px;
-}
-.wh-32{
-  width: 32px;
-  height: 32px;
-}
+
 .vk-share{
   background-image: url("/vk.svg");
 }
@@ -239,9 +243,7 @@ body{
 
 .round-btn{
   display: block;
-  border-radius: 28px;
-  width: 28px;
-  height: 28px;
+  border-radius: 36px;
   background-position: 50%;
   background-color: rgba(0, 0, 0, 0.45);
   background-repeat: no-repeat;
