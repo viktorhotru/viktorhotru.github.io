@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>тачки</title>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+	<style>
+		.custom_overroll{
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0px;
+			opacity: 0;
+			top: 0px;
+			z-index: 9999;
+		}
+		.boostervideo-slot{
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0px;
+			top: 0px;
+			z-index: 9900;
+		}
+		.close_button{
+			display: none;
+			position: absolute;
+			right: 20px;
+			bottom: 20px;
+			z-index:1000;
+			font-size: 24px;
+			color: red;
+			background-color: #fff;
+			border-radius: 3px;
+			border: 1px solid #ddd;
+			cursor: pointer;
+			padding: 10px 20px;
+		}
+		.close_button:hover{
+			background-color: #ffd;
+		}
+		#outer{
+			width: 500px;
+			height: 500px;
+			position:relative;
+		}
+	</style>
+	
+</head>
+<body>
+        <div id="booster_div" class="boostervideo-slot" style="width: 100%; height: 100%; " data-booster_hash="MzI3b1RNQ2F2dlVVT3RweFZydHZsWGhoaXRtQ1JFR0puUmxhbTZxaVUvYzZSc1AxZUx3dmRrbVFycGJLWVJQTzU2TTQ1MlpqQWpmbU5DMkVzd0ZsWGc9PQ==">
+		</div>
+
+		<script>
+			top.boostervideo = top.boostervideo || [];
+				(function () {
+				   var url = "https://test.boostervideo.ru/client/boostervideo.js";
+				   if (!document.querySelector || !document.querySelector("script[src='" + url + "']")) {
+					  var script = document.createElement('script');
+					  script.async = 1;
+					  script.src = url;
+					  var parent = document.querySelector('script');
+					  parent.parentNode.insertBefore(script, parent);
+				   }
+				   top.boostervideo.push(function () {
+					  top.boostervideo.domain("test.boostervideo.ru");
+				   });
+				})();
+				top.boostervideo.push(function () {
+				   top.boostervideo.get();
+				});
+				
+				
+		</script>
+</body>
+</html>
