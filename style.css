@@ -69,7 +69,15 @@ body{
   width: 1280px;
   height: 720px;
 }
-
+.w360{
+  width: 360px;
+}
+.h240{
+  height: 240px;
+}
+.h360{
+  height: 360px;
+}
 
 /*Общие стили кнопок*/
 
