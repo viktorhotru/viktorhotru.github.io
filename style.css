@@ -131,7 +131,7 @@ body{
 }
 .top-out-frame{
   position: absolute;
-  top: -12%;
+  top: -44px;
   right: 2%;
   float: right;
   z-index: 9999;
