@@ -273,6 +273,7 @@ body{
 }
 .cross-btn{
   background-image: url("/cross.svg");
+  background-size: 40%;
 }
 .mute-btn{
   background-image: url("/mute.svg");
