@@ -91,6 +91,7 @@ body{
 .bg-green{
   border: none;
   background-color: #3dd9aa !important;
+  color: #1c1c1c !important;
 }
 .bg-green:hover{
   background-color: #38b48f !important;
@@ -122,7 +123,7 @@ body{
 }
 .top-out-frame{
   position: absolute;
-  top: -9%;
+  top: -12%;
   right: 2%;
   float: right;
   z-index: 9999;
