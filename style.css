@@ -143,19 +143,19 @@ body{
   width: 40px;
   height: 40px;
   background-size: 50%;
-  background-position: auto;
+  background-position: center;
 }
 .wh-48{
   width: 48px;
   height: 48px;
   background-size: 50%;
-  background-position: auto;
+  background-position: center;
 }
 .wh-56{
   width: 56px;
   height: 56px;
   background-size: 50%;
-  background-position: auto;
+  background-position: center;
 }
 
 
@@ -222,7 +222,7 @@ body{
   background-position: 50%;
   background-color: rgba(0, 0, 0, 0.45);
   background-repeat: no-repeat;
-  background-size: none;
+  background-size: auto;
   cursor: pointer;
 }
 .share-btn:hover{
