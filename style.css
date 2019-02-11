@@ -31,9 +31,6 @@ body{
   position: relative;
   box-sizing: border-box;
 }
-.sandbox-table{
-  
-}
 .sandbox tr{
   border: rgb(45, 45, 45) solid 2px;
 }
