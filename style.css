@@ -34,10 +34,10 @@ body{
 .sandbox-table{
   
 }
-.sandbox-tr{
+.sandbox tr{
   border: rgb(45, 45, 45) solid 2px;
 }
-.sandbox-td{
+.sandbox td{
   height: 30px;
   width: 150px;
 }
