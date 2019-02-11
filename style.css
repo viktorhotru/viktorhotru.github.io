@@ -32,7 +32,7 @@ body{
   box-sizing: border-box;
 }
 .sandbox-table{
-  border: #eee solid 1px;
+  border: rgb(45, 45, 45) solid 2px;
 }
 
 
