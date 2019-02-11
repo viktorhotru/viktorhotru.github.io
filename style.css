@@ -31,6 +31,9 @@ body{
   position: relative;
   box-sizing: border-box;
 }
+.sandbox-table{
+  border: #eee solid 1px;
+}
 
 
 /* Фоновые цвета */
