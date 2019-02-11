@@ -26,7 +26,7 @@ body{
   position: relative;
 }
 .player-content{
-  background: url(/maxresdefault.jpg) no-repeat center center #000;
+  background: #000;
   width: 100%;
   height: 100%;
   position: relative;
@@ -34,21 +34,40 @@ body{
 }
 
 
-/*Прогрессбар*/
+/* Размеры */
 
-.progress-bar-block{
-  position: absolute;
-  width: 100%;
-  box-sizing: border-box;
-  height: 8px;
-  bottom: 0;
-  background-color: #333;
+.w360{
+  width: 360px;
 }
-.progress-bar{
-  width: 63.7%;
-  height: 8px;
-  background-color: #106fe2;
+.w640{
+  width: 640px;
 }
+.w768{
+  width: 768px;
+}
+.w1024{
+  width: 1024px;
+}
+.w1280{
+  width: 1280px;
+}
+.w1400{
+  width: 1400px;
+}
+.w1920{
+  width: 1920px;
+}
+
+.h240{
+  height: 240px;
+}
+.h360{
+  height: 360px;
+}
+.h203{
+  height: 203px;
+}
+
 
 
 /*Размеры плеера*/
@@ -69,17 +88,22 @@ body{
   width: 1280px;
   height: 720px;
 }
-.w360{
-  width: 360px;
+
+
+/*Прогрессбар*/
+
+.progress-bar-block{
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  height: 8px;
+  bottom: 0;
+  background-color: #333;
 }
-.h240{
-  height: 240px;
-}
-.h360{
-  height: 360px;
-}
-.h203{
-  height: 203px;
+.progress-bar{
+  width: 63.7%;
+  height: 8px;
+  background-color: #106fe2;
 }
 
 /*Общие стили кнопок*/
@@ -230,13 +254,13 @@ body{
 }
 
 .vk-share{
-  background-image: url("/vk.svg");
+  background-image: url("/img/vk.svg");
 }
 .ok-share{
-  background-image: url("/ok.svg");
+  background-image: url("/img/ok.svg");
 }
 .fb-share{
-  background-image: url("/fb.svg");
+  background-image: url("/img/fb.svg");
 }
 
 
@@ -273,14 +297,14 @@ body{
   background-color: rgba(0, 0, 0, 0.6);
 }
 .cross-btn{
-  background-image: url("/cross.svg");
+  background-image: url("/img/cross.svg");
   background-size: 40%;
 }
 .mute-btn{
-  background-image: url("/mute.svg");
+  background-image: url("/img/mute.svg");
 }
 .volume-btn{
-  background-image: url("/volume.svg");
+  background-image: url("/img/volume.svg");
 }
 
 /*Стили для аутстрима*/
