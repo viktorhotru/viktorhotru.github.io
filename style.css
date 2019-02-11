@@ -52,25 +52,25 @@ body{
 /* Размеры */
 
 .w360{
-  width: 360px;
+  width: 328px;
 }
 .w640{
-  width: 640px;
+  width: 608px;
 }
 .w768{
-  width: 768px;
+  width: 736px;
 }
 .w1024{
-  width: 1024px;
+  width: 992px;
 }
 .w1280{
-  width: 1280px;
+  width: 1248px;
 }
 .w1400{
-  width: 1400px;
+  width: 1368px;
 }
 .w1920{
-  width: 1920px;
+  width: 1888px;
 }
 
 .h240{
