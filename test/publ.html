@@ -97,7 +97,60 @@
                 
 
                             </div>
-                <script src="https://ertugrul-serial.online/js/ads/booster.js"></script>
+                            <script>
+                            var element = document.getElementById('boostervideo_container');
+                            element._boosterCallback_adReady = function(){
+                                yaCounter49883917.reachGoal('bust-show'); //Ð¿Ð¾ÐºÐ°Ð·
+                                console.log('bust-show');
+                                player.stop();
+                            };
+                            element._boosterCallback_playerIsVisible = function(){
+                                player.stop();
+                                
+                                var isTextHint = $('.rtp-text-hint').length;
+                                var isVideo = $('.boostervideo_player_wrapper').length;
+                                if (isVideo && !isTextHint) {
+                                    $('.boostervideo_player_wrapper').append('<div class="rtp-text-hint rtp-text-hint-my rtp-skip-button">Ð¤Ð¸Ð»ÑŒÐ¼ Ð±ÑƒÐ´ÐµÑ‚ Ð´Ð¾ÑÑ‚ÑƒÐ¿ÐµÐ½ Ð¿Ð¾ÑÐ»Ðµ Ð¿Ñ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€Ð° Ñ€Ð¾Ð»Ð¸ÐºÐ°</div>');
+                                }
+                                setTimeout(function () {
+                                    $('.rtp-text-hint-my').addClass('rtp-text-hint--hidden');
+                                }, 6000);
+                            };
+                            element._boosterCallback_complete = function(){
+                                player.play();
+                            };
+                            element._boosterCallback_closeVideoButton = function(){
+                                player.play();
+                            };
+                            element._boosterCallback_view = function(){
+                                yaCounter49883917.reachGoal('bust-display'); //Ð¿Ð¾ÐºÐ°Ð·
+                                console.log('bust-display');
+                            };
+                            element._boosterCallback_noContent = function(){
+                                console.log('no booster companies');
+                                
+                                $('#video-container').wrapInner('<div class="viboom-overroll"></div>');
+                                $('#video-container').append('<script type="text/javascript" id="s-a56f93c87e4c35f6" src="/js/ads/viboom.js"><\/script>');   
+                            };
+                            
+                            top.boostervideo = top.boostervideo || [];
+                            (function () {
+                               var url = "https://boostervideo.ru/client/boostervideo.js";
+                               if (!document.querySelector || !document.querySelector("script[src='" + url + "']")) {
+                                  var script = document.createElement('script');
+                                  script.async = 1;
+                                  script.src = url;
+                                  var parent = document.querySelector('script');
+                                  parent.parentNode.insertBefore(script, parent);
+                               }
+                               top.boostervideo.push(function () {
+                                  top.boostervideo.domain("boostervideo.ru");
+                               });
+                            })();
+                            top.boostervideo.push(function () {
+                               top.boostervideo.get();
+                            });
+                            </script>
                     
             </div>
     
