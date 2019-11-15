@@ -67,13 +67,15 @@ function SF_scripts(){
 	// open menu on mobile
 
 	function showMenuBtn(){
-		if($(window).width()<1185){
+		if($(window).width()<1199.98){
 			$(".open_menu").addClass("d-block");
 			$(".logo-nav").addClass("d-none");
+			$("header nav").addClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
 		}else{
 			$(".open_menu").removeClass("d-block");
 			$(".logo-nav").removeClass("d-none");
+			$("header nav").removeClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
 		}
 	}
