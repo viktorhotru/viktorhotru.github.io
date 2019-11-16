@@ -15,6 +15,23 @@
     font-size: 26px;
     line-height: 32px;
 }
+/*gradient text*/
+.gradient-text {
+    color: #ff7800;
+}
+input{
+    -webkit-appearance: none;
+}
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    .gradient-text {
+        animation: flow 30s ease-in-out infinite;
+        background: linear-gradient(45deg, #2c1aa7 10%, #f2cd11 15%, #ff7800 25%, #c6270a 45%, #d800ff 75%, #2c1aa7 95%);
+        background-size: 300%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
 
 @media (max-width: 1199.98px) {
     .text-adaptive.f-40{
@@ -27,6 +44,13 @@
     .text-adaptive.f-40{
         font-size: 40px;
         line-height: 50px;
+    }
+    section[class^="pt-"], section[class*=" pt-"] {
+        padding-top: 50px;
+    }
+
+    section[class^="pb-"], section[class*=" pb-"] {
+        padding-bottom: 50px;
     }
 }
 
