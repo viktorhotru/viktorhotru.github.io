@@ -74,6 +74,9 @@
 
 @media (max-width: 575.98px) {
 
+    .br-hide br{
+        display: none;
+    }
     .key-idea, h2.small{
         font-size: 26px;
         line-height: 36px;
