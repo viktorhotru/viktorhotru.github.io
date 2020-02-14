@@ -48,70 +48,38 @@
 			}
 		}
 
-        //анимация форматов на главной
-        var animation = bodymovin.loadAnimation({
-            container: document.getElementById('bm'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'animation/main.json'
-        });
+		//анимация форматов на главной
+		var animation = bodymovin.loadAnimation({
+			container: document.getElementById('bm'),
+			renderer: 'svg',
+			loop: true,
+			autoplay: true,
+			path: 'animation/main.json'
+		});
 
-        var storyAnimation = bodymovin.loadAnimation({
-            container: document.getElementById('story_anim'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'animation/stories.json'
-        });
+		var storyAnimation = bodymovin.loadAnimation({
+			container: document.getElementById('story_anim'),
+			renderer: 'svg',
+			loop: true,
+			autoplay: true,
+			path: 'animation/stories.json'
+		});
 
-        var outstreamAnimation = bodymovin.loadAnimation({
-            container: document.getElementById('outstream_anim'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'animation/outstream.json'
-        });
+		var outstreamAnimation = bodymovin.loadAnimation({
+			container: document.getElementById('outstream_anim'),
+			renderer: 'svg',
+			loop: true,
+			autoplay: true,
+			path: 'animation/outstream.json'
+		});
 
-        var instreamAnimation = bodymovin.loadAnimation({
-            container: document.getElementById('instream_anim'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'animation/instream.json'
-        });
-
-		//паддинги у блоков форматов на странице форматов
-		var formatBoxes = [].slice.call(document.querySelectorAll('.format-box'));
-		if (formatBoxes.length !== 0) {
-            getPadding();
-            window.addEventListener("resize", getPadding);
-        }
-
-		function getPadding() {
-            //высота шапки
-            var topbarHeight = document.querySelector('.topbar').getBoundingClientRect().height;
-            //высота окна без высоты шапки
-            var windowHeight = window.innerHeight - topbarHeight;
-            for (var i = 0; i < formatBoxes.length; i++) {
-                formatBoxes[i].removeAttribute("style");
-                if (formatBoxes[i].getBoundingClientRect().height <= windowHeight) {
-                    var padding = (windowHeight - formatBoxes[i].getBoundingClientRect().height)/2;
-                    var extraPadding = (padding < 60) ? 60 : 0;
-                    formatBoxes[i].style.paddingBottom = padding + extraPadding + 'px';
-                    formatBoxes[i].style.paddingTop = padding + 'px';
-                } else {
-                	if (window.innerWidth < 720 && formatBoxes[i].id.match(/mobile_/) !== null) {
-						formatBoxes[i].style.paddingBottom = '15px';
-						formatBoxes[i].style.paddingTop = '15px';
-					} else {
-						formatBoxes[i].style.paddingBottom = '40px';
-						formatBoxes[i].style.paddingTop = '40px';
-					}
-
-                }
-            }
-		}
+		var instreamAnimation = bodymovin.loadAnimation({
+			container: document.getElementById('instream_anim'),
+			renderer: 'svg',
+			loop: true,
+			autoplay: true,
+			path: 'animation/instream.json'
+		});
 	});
 
 	//параллакс-эффект на главной (синий компонент Наши форматы)
@@ -135,11 +103,9 @@
 // Отзывчивость горизонтального скролла меню на прокрутку (мобайл)
 	//собираем в массив все форматы
 	var formats = [].slice.call(document.querySelectorAll('.formats-nav li'));
-	var formats_menu = document.querySelector('.formats-nav');
 	//слушаем событие скролла
-	if (formats_menu)
-		window.addEventListener('scroll', checkPosition);
-
+	window.addEventListener('scroll', checkPosition);
+	var formats_menu = document.querySelector('.formats-nav');
 
 	function checkPosition(){
 		const activeElPosition = document.querySelector('.active').getBoundingClientRect();
@@ -196,19 +162,12 @@ function SF_scripts(){
 			$(".open_menu").addClass("d-block");
 			$(".logo-nav").addClass("d-none");
 			$("header nav").addClass("d-none");
-			$(".footer-nav").addClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
-			$(".footer-menu").removeClass("justify-content-between").addClass("justify-content-center");
-			$(".footer-logo").removeClass("align-items-start");
-
 		}else{
 			$(".open_menu").removeClass("d-block");
 			$(".logo-nav").removeClass("d-none");
 			$("header nav").removeClass("d-none");
-			$(".footer-nav").removeClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
-			$(".footer-menu").removeClass("justify-content-center").addClass("justify-content-between");
-			$(".footer-logo").addClass("align-items-start");
 		}
 		if ($(window).width() < 767.98) {
 			$(".format-name").removeClass("small");
