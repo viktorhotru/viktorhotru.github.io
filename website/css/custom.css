@@ -56,13 +56,6 @@
         font-size: 40px;
         line-height: 50px;
     }
-    section[class^="pt-"], section[class*=" pt-"] {
-        padding-top: 50px;
-    }
-
-    section[class^="pb-"], section[class*=" pb-"] {
-        padding-bottom: 50px;
-    }
 }
 
 @media (max-width: 767.98px) {
@@ -88,12 +81,7 @@
     .header-wave{
         margin-bottom: -2px;
     }
-    section[class^="pt-"], section[class*=" pt-"] {
-        padding-top: 40px;
+    .footer-wave {
+        margin-top: -3px;
     }
-
-    section[class^="pb-"], section[class*=" pb-"] {
-        padding-bottom: 40px;
-    }
-
 }
