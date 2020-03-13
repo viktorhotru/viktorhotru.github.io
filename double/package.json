@@ -1,0 +1,24 @@
+{
+  "name": "DS",
+  "version": "1.0.0",
+  "description": "DS site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpmd/ds_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hpmd/ds_website/issues"
+  },
+  "homepage": "https://github.com/hpmd/ds_website#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "pug": "^2.0.4"
+  }
+}
