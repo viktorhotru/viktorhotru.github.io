@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" >
-		<title>Startup 3.2 - HPMD main</title>
+		<title>Happy Monday Family</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 				<link rel="icon" href="i/favicon.png" type="image/x-icon">
 		<!-- Google Fonts -->
@@ -35,6 +35,10 @@
 		<div><a href="about.html" class="f-heading f-22 link color-main mb-20">О нас</a></div>
 					
 		<div><a href="products.html" class="f-heading f-22 link color-main mb-20">Продукты</a></div>
+
+		<div><a href="news.html" class="f-heading f-22 link color-main mb-20">Новости</a></div>
+
+		<div><a href="contacts.html" class="f-heading f-22 link color-main mb-20">Контакты</a></div>
 						
 	</div>
 </div>		
@@ -61,6 +65,8 @@
 						<div class="col-lg-9 d-flex justify-content-end align-items-center f-18 medium" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
 							<a href="about.html" class="mx-20 link color-white">О нас</a>
 							<a href="products.html" class="mx-20 link color-white">Продукты</a>
+							<a href="news.html" class="mx-20 link color-white">Новости</a>
+							<a href="contacts.html" class="mx-20 link color-white">Контакты</a>
 						</div>
 					</div>
 				</div>
@@ -369,10 +375,10 @@
 		<div class="row justify-content-center justify-content-md-between">
 			<div class="col-xl-6 col-lg-6 col-md-7 pb-100 inner">
 				<div class="f-14 semibold text-uppercase sp-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Get Started</div>
-				<h2 class="mt-15 mb-15 small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">Реклама с блогерами для вас</h2>
+				<h2 class="mt-15 mb-15 small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">Давайте делать классные проекты вместе!</h2>
 				<div class="text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-					We have created a new product that will help designers, developers 
-					and companies create websites for their startups quickly and easily.				</div>
+					Заполните небольшой бриф, и мы с радостью подберем оптимальные решение для ваших задач.
+				</div>
 				<div data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
 					<a href="#" class="mt-40 btn action-1">Отправить бриф</a>
 				</div>
@@ -383,9 +389,14 @@
 		</div>
 	</div>
 </section>
+<script>
+	var link = document.querySelector('link[rel=import]');
+	var content = link.import.querySelector('#footer');
+	document.body.appendChild(content.cloneNode(true));
+  </script>
 <!-- Footer 8 -->
 
-<footer class="pt-45 pb-45 bg-dark color-white text-center footer_8">
+<footer class="pt-45 pb-45 bg-dark color-white text-center footer_8" id="footer">
 	<div class="container px-xl-0">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-lg-3 text-xl-left" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
@@ -394,6 +405,8 @@
 			<div class="mt-10 mb-10 my-xl-0 col-xl-6 lh-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
 				<a href="about.html" class="f-14 text-uppercase sp-20 link color-white mr-15">О нас</a>
 				<a href="products.html" class="f-14 text-uppercase sp-20 link color-white mx-15">Продукты</a>
+				<a href="news.html" class="f-14 text-uppercase sp-20 link color-white mx-15">Новости</a>
+				<a href="contacts.html" class="f-14 text-uppercase sp-20 link color-white mx-15">Контакты</a>
 			</div>
 			<div class="col-lg-3 text-xl-right socials" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
 				<a href="#" class="mr-15 w-40 btn sm border-transparent-white px-0"><i class="fab fa-twitter"></i></a>
